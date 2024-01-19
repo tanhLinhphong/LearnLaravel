@@ -26,3 +26,6 @@ Route::get('test/hihi',function (){
 Route::get('test/{krim}',function ($krim){
    return $krim.'hahaaa';
 });
+Route::get('test/class/{theArt}/{thePrice}',function ($theArt,$thePrice){
+    return "Shopee: $theArt and $thePrice";
+});
